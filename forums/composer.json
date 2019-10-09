@@ -1,0 +1,63 @@
+{
+    "name": "flarum/flarum",
+    "description": "Delightfully simple forum software.",
+    "type": "project",
+    "keywords": ["forum", "discussion"],
+    "homepage": "https://flarum.org/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Toby Zerner",
+            "email": "toby.zerner@gmail.com"
+        },
+        {
+            "name": "Franz Liedke",
+            "email": "franz@develophp.org"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/flarum/core/issues",
+        "source": "https://github.com/flarum/flarum",
+        "docs": "https://flarum.org/docs/"
+    },
+    "require": {
+        "avatar4eg/flarum-ext-users-list": "^0.1.1",
+        "datitisev/flarum-ext-dashboard": "v0.1.0-beta.8.1",
+        "flagrow/flarum-ext-analytics": "^0.8.0",
+        "flagrow/upload": "*",
+        "flarum/approval": "^0.1.0",
+        "flarum/auth-facebook": "^0.1.0",
+        "flarum/auth-github": "^0.1.0",
+        "flarum/auth-twitter": "^0.1.0",
+        "flarum/bbcode": "^0.1.0",
+        "flarum/core": "^0.1.0",
+        "flarum/emoji": "^0.1.0",
+        "flarum/flags": "^0.1.0",
+        "flarum/lang-english": "^0.1.0",
+        "flarum/likes": "^0.1.0",
+        "flarum/lock": "^0.1.0",
+        "flarum/markdown": "^0.1.0",
+        "flarum/mentions": "^0.1.0",
+        "flarum/pusher": "^0.1.0",
+        "flarum/statistics": "^0.1.0",
+        "flarum/sticky": "^0.1.0",
+        "flarum/subscriptions": "^0.1.0",
+        "flarum/suspend": "^0.1.0",
+        "flarum/tags": "^0.1.0",
+        "fof/gamification": "^0.1.4",
+        "fof/links": "^0.2.1",
+        "fof/pages": "^0.2.7",
+        "fof/user-directory": "^0.3.3",
+        "isaced/flarum-ext-email-verification-switch": "^0.1.3",
+        "madchatthew/themelightshadow": "^0.1.2",
+        "reflar/level-ranks": "^1.2",
+        "santiagobiali/flarum-ext-logo": "^0.2.0",
+        "wiwatsrt/flarum-ext-best-answer": "^0.2.4"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "beta",
+    "prefer-stable": true
+}

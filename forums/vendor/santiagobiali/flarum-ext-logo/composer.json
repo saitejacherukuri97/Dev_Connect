@@ -1,0 +1,35 @@
+{
+    "name": "santiagobiali/flarum-ext-logo",
+    "description": "Adds a logo to you forum",
+    "type": "flarum-extension",
+    "keywords": ["logo", "flarum", "design", "ext", "santiagobiali"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Santiago Testa Biali",
+            "email": "santiago.t.biali@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/santiagobiali/flarum-ext-logo/issues",
+        "source": "https://github.com/santiagobiali/flarum-ext-logo"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Santiagobiali\\Logo\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Logo",
+            "icon": {
+                "name": "image",
+                "backgroundColor": "#3b5998",
+                "color": "#fff"
+            }
+        }
+    }
+}
